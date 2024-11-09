@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup Label="Project References">
+    <Reference Include=".\dlls\osu.Game.dll" />
+    <Reference Include=".\dlls\osu.Framework.dll" />
+    <Reference Include=".\dlls\nunit.framework.dll" />
+    <Reference Include=".\dlls\Realm.dll" />
+    <Reference Include=".\dlls\MongoDB.Bson.dll" />
+    <Reference Include=".\dlls\realm-wrappers.dll" />
+    <Reference Include=".\dlls\Realm.PlatformHelpers.dll" />
+    
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Realm" Version="11.5.0" />
+  </ItemGroup>
+</Project>
