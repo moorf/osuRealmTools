@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "osuRealmTools": {
-      "commandName": "Project",
-      "commandLineArgs": "export C:\\Users\\Bodya\\AppData\\Roaming\\osu-development\\client_43.realm C:\\ninja\\gyatt.txt 43 osu-development C:\\Users\\Bodya\\AppData\\Roaming\\osu-development"
-    }
-  }
-}
